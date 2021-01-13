@@ -2,24 +2,25 @@
     display: flex;
     flex-direction: column;
     background: #E8E8E8;
-    height: 100vh;
+    height: 100%;
     width: 60px;
-    padding-top: 4rem;
+    padding-top: 5.5rem;
     justify-content: space-between;
-  }
-  
-  .iconsA,
-  .iconsB {
+}
+
+.iconsA,
+.iconsB {
     display: flex;
     flex-direction: column;
     height: 45%;
     justify-content: space-between;
-  }
-  
-  .iconsB {
+}
+
+.iconsB {
     height: 25%;
-  }
-  
-  img {
+    padding-bottom: 10rem;
+}
+
+img {
     cursor: pointer;
-  }
+}
