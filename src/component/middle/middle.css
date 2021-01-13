@@ -1,39 +1,44 @@
-.middle{
+.middle {
     width: 280px;
     height: 100%;
     background-color: #F1F1F1;
-    padding: 0 15px;
+    padding: 15px;
 }
 
-h3{
+h3 {
     color: #3C3C3C;
-    padding: 8px;
+    padding: 15px 8px;
     line-height: 0px;
 }
 
-input{
+input {
+    margin: 12px 0;
     padding: 6px;
     width: 100%;
     border: 1px solid#E8E8E8;
     outline: none;
     border-radius: 3px;
+    font-size: 11px;
 }
 
-.segments{
+.segments {
     color: #727272;
     font-weight: bold;
     font-size: 13px;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     font-size: 11px;
+    padding: 2px 0;
 }
-.flex span{
+
+.flex span {
     padding-left: 8px;
 }
-.btn{
+
+.btn {
     background-color: #334BFA;
     border-radius: 5px;
     color: white;
@@ -41,6 +46,7 @@ input{
     margin-top: 2.5rem;
     cursor: pointer;
 }
-.small{
+
+.small {
     padding-right: 5px !important;
 }
